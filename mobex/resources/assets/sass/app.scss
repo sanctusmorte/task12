@@ -1,0 +1,61 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+#table_users_notes .actions {
+	display: flex;
+	justify-content: space-around;
+}
+
+#table_users_notes .actions div {
+	cursor: pointer;
+}
+
+#table_users_notes input {
+	padding-left: 5px
+}
+
+
+.refMessageFromRequest {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 16px;
+	font-size: 17px;
+}
+
+.add_note_modal .modal-dialog {
+	max-width: 600px;
+}
+
+.add_note_modal_body div input {
+	width: 100%;
+	height: 35px;
+	border: 0;
+	border-bottom: 1px solid #3490dc;
+}
+
+.add_note_modal_body div label {
+	margin-bottom:0;
+}
+
+.add_note_modal_body div {
+	margin-bottom:15px;
+}
+
+.add_note_modal_body div:last-child {
+	margin-bottom:15px;
+}
+
